@@ -34,5 +34,17 @@
 <!-- partial -->
   <script  src="./script.js"></script>
 
+  <script  src="./script.js"></script>
+
+  <audio id="background-music" loop>
+    <source src="./MHIBFY.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script>
+      document.body.addEventListener('click', function() {
+        var audio = document.getElementById("background-music");
+        audio.play();
+      });
+    </script>
 </body>
 </html>
